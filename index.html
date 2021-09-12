@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+    <title>Random User Info</title>
+  </head>
+  <body class="d-flex align-items-center justify-content-center">
+    <div
+      id="main div"
+      style="width: 75%; height: 40rem; display: inline-block"
+      class="border border-dark"
+    >
+      <div
+        id="imagebox"
+        style="width: 30%; height: 40%; border-radius: 50%"
+        class="m-2"
+      ></div>
+      <button id="submit" class="btn btn-primary ms-5">Click Me</button>
+      <div class="border-top border-dark">
+        <div>
+          <p class="h1">Name</p>
+          <p id="name"></p>
+        </div>
+        <div>
+          <p class="h1">E-mail</p>
+          <p id="email"></p>
+        </div>
+        <div>
+          <p class="h1">DoB</p>
+          <p id="dob"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
